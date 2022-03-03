@@ -434,6 +434,27 @@ function M.setup(colors, config)
         IndentBlanklineSpaceCharBlankline = { fg = colors.bg_light2 },
         IndentBlanklineContextChar        = { fg = colors.bg_light3 },
         IndentBlanklineContextStart       = { guisp = colors.bg_light3, style = "underline" },
+
+        --NeoTreeBufferNumber = {},
+        --NeoTreeCursorLine = {},
+        --NeoTreeDimText = {},
+        --NeoTreeDirectoryName = {},
+        --NeoTreeDirectoryIcon = {},
+        --NeoTreeFileIcon = {},
+        --NeoTreeFileName = {},
+        --NeoTreeFileNameOpened = {},
+        --NeoTreeSymbolicLinkTarget = {},
+        --NeoTreeFilterTerm = {},
+        NeoTreeFloatBorder = { fg = colors.fg_border, bg = colors.bg },
+        --NeoTreeGitAdded = {},
+        --NeoTreeGitConflict = {},
+        --NeoTreeGitModified = {},
+        --NeoTreeGitUntracked = {},
+        --NeoTreeNormal = {},
+        --NeoTreeNormalNC = {},
+        --NeoTreeRootName = {},
+        NeoTreeTitleBar = { fg = colors.fg_border, bg = colors.bg },
+        --NeoTreeIndentMarker = {},
     }
 
     for hl, specs in pairs(config.overrides) do
